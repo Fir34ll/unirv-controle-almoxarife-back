@@ -1,0 +1,40 @@
+# Ambiente virtual
+venv/
+.env
+*.env
+
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pyc
+
+# Configurações e caches do editor
+.idea/
+.vscode/
+*.swp
+
+# Arquivos de log e dumps
+*.log
+*.pid
+*.gz
+
+# Arquivos e diretórios criados por SQLite
+*.db
+*.sqlite3
+
+# Configuração específica do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Cache de pacotes instalados pelo pip
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Arquivos temporários
+*.bak
+*.tmp
