@@ -50,10 +50,19 @@ almoxarifado_backend/
 │       ├── tipoUsuarios.py
 │       └── agendamento.py
 
+Pastas:
+- crud
+- models
+- routes
+- schemas
+
 --------------------------------------------------------------------------
 
 - A URL do banco de dados é configurada no arquivo app/config.py. Para o SQLite, a configuração atual usa:
 DATABASE_URL = "sqlite:///./test.db"
+
+O SQLite criará o arquivo test.db na primeira execução, e será possível desenvolver e testar o backend como se estivesse usando um 
+banco de dados completo.
 
 - Para usar o banco de dados em produção, será preciso alterar o DATABASE_URL para a URL do banco de dados, como por exemplo:
 DATABASE_URL = "postgresql://usuario:senha@localhost:5432/nome_do_banco"
