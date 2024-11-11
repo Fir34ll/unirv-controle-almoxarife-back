@@ -85,3 +85,17 @@ Redoc: http://127.0.0.1:8000/redoc
 É possível testar todas as rotas diretamente nesses endpoints.
 
 --------------------------------------------------------------------------
+
+- Tabelas feitas até o momento:
+
+tipoUsuarios
+usuario
+agendamento
+ordemDeCompra
+fornecedor
+statusDaSolicitacao
+solicitacaoDeMateriaisDoLaboratorio
+departamento
+campus
+
+--------------------------------------------------------------------------
